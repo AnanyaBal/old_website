@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Ananya Bal</title>
+
+    <div style="background-image: url('./images.jpg'); background-size: 100% 100%; width:1350px; height:662px";>
+    <div><style>
+        ul {
+          
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #78b8e0;
+        }
+</style>
+
+        
+        <ul>
+          <li style="float:right"><a href="#contact">Contact</a></li>
+          <li style="float:right"><a href="#news">News</a></li>
+          <li style="float:right"><a href="#about">Experience</a></li>
+          <li style="float:right" onclick="window.location.href='./index.html'";><a class="active" href="#home">Home</a></li>
+        </ul>
+        </div>
+    </head>
+    <body>
+          <div>
+            <h1 style="text-align: center; padding-left: 10px;">Tech Projects</h1>
+            <div style=" float: left;width:22%; margin-top: 1%; margin-left: 1.1%; border-style: solid; border-width: 2px; padding-left: 10px;border-color: #78b8e0; align-self: center; ">
+            <h3 style='text-align: center;'>Sentiment Analysis on Tweets about the 2019 Indian General Elections</h3>
+            <img src='./nm.png' style='width:280px; height:230px; align-items:center'>
+            <p style='text-align: justify; padding-right: 10px;'>Tweets can be a great source of information to analyze sentiments of people on a subject. I used the twitter API to stream in tweets about the two leading national political parties in India and their prime-ministerial candidates. These tweets were cleaned and assessed to obtain sentiments state-wise. I also carried out an analysis on the effect of an airstrike on sentiments. These sentiments were visualized on interactive maps. <a href='https://github.com/AnanyaBal/2019_Indian_General_Elections_Sentiment_Analysis'><i>(Code)</i></a> </p>
+            <p><b>Tags:</b> NLP, Text-Analysis</p>
+            <p><b>Tech used:</b> Python, Tweepy, NLTK, TextBlob</p>
+            <br>
+          </div>
+
+
+          <div style=" float:left; width:22%;  margin-top: 1%; margin-left: 2%;  border-style: solid; border-width: 2px; padding-left: 10px;border-color: #78b8e0; align-self: center; ">
+            <h3 style='text-align: center;'>Mammogram Enhancement and Mass Detection in Breast Tissue         <br>  </h3>
+            
+            <img src='./mamm.png' style='width:280px; height:230px; align-items:center'>
+            <p style='text-align: justify; padding-right: 10px;'>Detecting boundaries of masses in mamograms is essential for clinincal purposes. This can be achieved with simple image processing techniques. In this project I have enhanced mammorgram images by applying the Laplacian filter and Histogram Equalization. This was followed by segmenting the image through k-means clustering and then using the Canny Edge detector to locate the mass. <a href='https://github.com/AnanyaBal/Image_Processing_For_Mass_Edge_Detection_In_Mammograms'><i>(Code)</i></a> </p>
+            <p><b>Tags:</b> Image Processing, Medical Image Analysis</p>
+            <p><b>Tech used:</b> Python, OpenCV, SciPy</p>
+          </div>
+
+          <div style=" float:left; width:22%;  margin-top: 1%; margin-left: 2%;  border-style: solid; border-width: 2px;padding-left: 10px; border-color: #78b8e0; align-self: center; ">
+            <h3 style='text-align: center;'>Face Mask Detection and Classification with SSD         <br>  </h3>
+            
+            <img src='./maskssd.png' style='width:280px; height:230px; align-items:center'>
+            <p style='text-align: justify; padding-right: 10px;'>With Computer Vision algorithms for object detection, we can enforce health regulations like mask-wearing and social distancing. For this project, I have employed the MobileNet Single Shot Detector(SSD) with transfer learning to identify and classify people in images into 3 categories - 1) Wearing a mask correctly, 2) Wearing a mask incorrectly and 3) Not wearing a mask. <a href='https://github.com/AnanyaBal/Face_Mask_Detection_with_SSD'><i>(Code)</i></a> </p>
+            <p><b>Tags:</b> Object Detection, Object Classification</p>
+            <p><b>Tech used:</b> Python, Tensorflow API, MobileNet SSD, Pillow, OpenCV</p>
+          </div>
+
+          <div style=" float:left; width:22%;  margin-top: 1%; margin-left: 2%;  border-style: solid; border-width: 2px;padding-left: 10px; border-color: #78b8e0; align-self: center; ">
+            <h3 style='text-align: center;'>PharmaZ: Pharmacy Ecommerce Website with Functionlity to suggest medication <br>  </h3>
+            
+            <img src='./pharmaz.png' style='width:280px; height:208px; align-items:center'>
+            <p style='text-align: justify; padding-right: 10px;'>I developed this website for an online pharmacy as part of my web programming course. It has the usual functionalities of shopping for medicines and payments, but it has added functionalities to contact doctors (by specialty), order blood/urine tests at home, and most importantly, get prescribed over-the-counter medications based on your symptoms and body parameters like age, gender, weight etc.  <a href='https://github.com/AnanyaBal/PharmaZ_Website'><i>(Code)</i></a> </p>
+            <p><b>Tags:</b> Web application, e-commerce website</p>
+            <p><b>Tech used:</b> HTML, CSS, AngularJS</p><br>
+            </div>
+          </div>
+
+          <div style=" float:left;width:22%;  margin-top: 1%; margin-left: 1.1%;  border-style: solid; border-width: 2px;padding-left: 10px; border-color: #78b8e0; align-self: center; ">
+              <h3 style='text-align: center;'>New Algorithm for Calculating Minimum Vertex Cover<br>  </h3>
+              
+              <img src='./minv.png' style='width:280px; height:230px; align-items:center'>
+              <p style='text-align: justify; padding-right: 10px;'>A vertex cover of a graph is a set of vertices that includes at least one endpoint of every edge of the graph. Finding a minimum vertex cover is a classic optimization problem in computer science and is a typical example of an NP-hard optimization problem. I have implemented standard algorithms to find the vertex cover and improved an algorithm suggested by Dahiya et al. (ICMIRA 3013) <a href='https://github.com/AnanyaBal/Finding_Minimum_Vertex_Cover'><i>(Code)</i></a> </p>
+              <p><b>Tags:</b> Graph Theory</p>
+              <p><b>Tech used:</b> Java</p>
+          </div>
+
+          <div style=" float:left; width:22%;  margin-top: 1%; margin-left: 2%;  border-style: solid; border-width: 2px; padding-left: 10px;border-color: #78b8e0; align-self: center; ">
+                <h3 style='text-align: center; padding-left: 1px;'>CollegeConnect: A multi-functional website for college specific actvities         <br>  </h3>
+                
+                <img src='./cc1.jpg' style='width:280px; height:230px; align-items:center'>
+                <p style='text-align: justify; padding-right: 10px;'>As part of my software development course, I developed this website to provide many essential functionalities like question and answering with college/topic tags, polls, event advertisements etc for college students, representatives and event organizers. These functionalities are specific to the type of user and are governed by secure logins. <br><a href='https://github.com/AnanyaBal/College_Connect'><i>(Code)</i></a> </p>
+                <p><b>Tags:</b> Web application</p>
+                <p><b>Tech used:</b> HTML, CSS, Javascript</p>
+          </div>
+    
+</body>
+</html>
